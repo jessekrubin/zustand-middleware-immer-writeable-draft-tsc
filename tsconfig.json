@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "target": "ES5",
+    "lib": ["ES2020", "DOM"],
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": false,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"],
+}
